@@ -30,11 +30,13 @@ int Binary::toDecimal() {
     return decimal;
 }
 
+// Convert RGB image to Grayscale
 void imageToGrayscale (Mat &image) {
     
     cvtColor (image, image, COLOR_BGR2GRAY);
 }
 
+// Apply LBP filter
 void applyLBP (Mat &image, int maskSize) {
 
     // Convert image to Grayscale
@@ -59,7 +61,6 @@ void applyLBP (Mat &image, int maskSize) {
                     
                     if ((x != (maskSize / 2)) and (y != (maskSize / 2))) {
 
-                            // adiciona na string 1 se for maior que central e 0 se for menor
                             if (image.at<uchar>(i + x, j + y) >= centralPixel)
                                 binaryString.append("1");
                             else
@@ -76,4 +77,3 @@ void applyLBP (Mat &image, int maskSize) {
     
     image = auxImage.clone();
 }
-
