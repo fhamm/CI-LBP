@@ -1,8 +1,13 @@
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
 #include <iostream>
 #include <math.h>
 #include <string>
 
 using namespace std;
+using namespace cv;
 
 #ifndef LBP_CLASSES
 
@@ -27,4 +32,6 @@ class Binary {
 
 #endif
 
+void imageToGrayscale (Mat &image);
+void applyLBP (Mat &image, int maskSize);
 
