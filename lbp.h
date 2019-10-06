@@ -32,6 +32,8 @@ class Binary {
 
 #endif
 
+// Convert RGB image to Grayscale
 void imageToGrayscale (Mat &image);
-void applyLBP (Mat &image, int maskSize);
 
+// Apply LBP filter
+void applyLBP (Mat &image, int maskSize);
