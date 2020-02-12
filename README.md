@@ -18,7 +18,7 @@ The following table shows the
 | **-o** |   *Output file name*  |                                  *Image file*                                 |                                 Sets output image file name                                |
 | **-t** |      *Technique*      |                                **0** *or* **1**                               |                **0** sets technique to LBP<br> **1** sets technique to CLBP                |
 | **-m** |  *Mask size (m x m)*  | *Any number that is*<br> **odd**, **natural** *and*<br>  **larger than two**. |                                    Sets mask dimensions                                    |
-| **-d** | **Rotation Direction* |                                **0** *or* **1**                               | **0** sets rotation to **counter-clockwise**<br>  **1** sets rotation to **clockwise**<br> |
+| **-d** | *Rotation Direction** |                                **0** *or* **1**                               | **0** sets rotation to **counter-clockwise**<br>  **1** sets rotation to **clockwise**<br> |
 | **-w** |    *Output Window*    |                                     **-**                                     |                                     Shows output window                                    |
 | **-h** |         *Help*        |                                     **-**                                     |                                       Shows help text                                      |
 
