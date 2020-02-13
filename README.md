@@ -6,7 +6,7 @@ Developed by the Department of Informatics of Universidade Federal do Paraná.
 
 First, check if you have *G++*, *OpenCV* and *Make* installed in your machine.
 
-Then, to install the program, just clone this repository and run `make`. It will compile everything and produce an executable file.
+Then, to install the program, just clone this repository and run `make`. It will compile everything and produce an executable file named `CiLBP`.
 
 ## Usage
 
