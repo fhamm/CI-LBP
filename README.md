@@ -10,7 +10,7 @@ Then, to install the program, just clone this repository and run `make`. It will
 
 ## Usage
 
-The following table shows the 
+The following table shows the input arguments and their respective functions:
 
 |  Flag  |          Name         |                                    Argument                                   |                                         Description                                        |
 |:------:|:---------------------:|:-----------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|
