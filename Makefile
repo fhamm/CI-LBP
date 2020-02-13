@@ -15,7 +15,7 @@ lbp.o: src/lbp.cpp src/lbp.h
 main.o: src/main.cpp
 	$(CC) -c src/main.cpp $(CFLAGS)
 
-main: main.o lbp.o ui.o
+main: src/main.o src/lbp.o src/ui.o
 	$(CC) -o $(OUTPUT) src/main.o src/ui.o src/lbp.o $(CFLAGS)
 
 clean: 
