@@ -23,6 +23,12 @@ int main (int argc, char **argv) {
         return -1;
     }
 
+    // Check if help was called
+    if (getHelpState) {
+        printHelp ();
+        return 0;
+    }
+
     printInfo (argc, argv);
     
     // Declare image container and read the input file

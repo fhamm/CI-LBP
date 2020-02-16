@@ -32,3 +32,6 @@ bool getHelpState (int argc, char **argv);
 
 // Print process information
 void printInfo (int argc, char **argv);
+
+// Prints help text
+void printHelp ();
