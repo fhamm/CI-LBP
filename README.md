@@ -1,6 +1,8 @@
 # CiLBP
 
-Developed by the Department of Informatics of Universidade Federal do Paraná.
+*Console Integrated Local Binary Pattern*
+
+Developed at the Department of Informatics of Universidade Federal do Paraná.
 
 ## Installation
 
