@@ -243,28 +243,4 @@ void printHelp () {
     cout << "For more help, visit: " << repoURL << endl;
 
     cout << endl;
-
-    /*
-    +------+--------------------+--------------------+---------------------------------------+
-    | Flag |        Name        |      Argument      |              Description              |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -i  |   Input file name  |     Image file     |       Sets input image file name      |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -o  |  Output file name  |     Image file     |      Sets output image file name      |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -t  |      Technique     |       0 or 1       |        0 sets technique to LBP        |
-    |      |                    |                    |        1 sets technique to CLBP       |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -m  |  Mask size (m x m) | Any number that is |                                       |
-    |      |                    |  odd, natural and  |          Sets mask dimensions         |
-    |      |                    |  larger than two.  |                                       |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -d  | Rotation Direction |       0 or 1       | 0 sets rotation to counter-clockwise  |
-    |      |                    |                    |      1 sets rotation to clockwise     |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -w  |    Output Window   |          -         |          Shows output window          |
-    +------+--------------------+--------------------+---------------------------------------+
-    |  -h  |        Help        |          -         |            Shows help text            |
-    +------+--------------------+--------------------+---------------------------------------+
-    */
 }
